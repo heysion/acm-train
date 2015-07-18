@@ -1,0 +1,5 @@
+#cmake_minimum_required (VERSION 2.8.11)
+#project(acm_test_strtok)
+#set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+add_executable(acm_test_strtok test_strtok.c)
